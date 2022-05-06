@@ -14,6 +14,48 @@ html, body{
 :root{
     --cor-branca: white;
     --fonte_normal: Verdana, Geneva, Tahoma, sans-serif;
+    --cor_borda: rgb(145, 145, 145);
+    --cor_extremos: #3981B3;
+    --destacar: #140B17;
+}
+
+#jogabilidade{
+    background-image: url(img/logo_avg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: var(--cor-branca);
+}
+
+#sobre{
+    background-image: url(img/ironman_manopla.jpg);
+    background-size: cover;
+    background-position: center;
+
+    color: var(--cor-branca);
+    font-weight: 400;
+}
+
+#index{
+    background-image: url(img/avengers_capa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#index ul li a{
+    color: white;
+}
+
+#index ul li a:hover{
+    color: #3980b3b6;
+}
+
+.itens{
+    border: 1px solid var(--cor_borda);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #3980b3b6;
+    opacity: 1;
 }
 
 h1{
@@ -22,11 +64,16 @@ h1{
 }
 
 nav > h4{
-    color: white;
+    color: var(--cor-branca);
 }
 
 .flex-container {
     display: flex;
+}
+
+
+header{
+    background-color: var(--cor_extremos);
 }
 
 header > nav > ul > li > a {
@@ -34,8 +81,12 @@ header > nav > ul > li > a {
     color: var(--cor-branca);
 }
 
-main#index{
+main#jogabilidade{
     margin: 40px 0;
+}
+
+main#index{
+    padding: 70px 0;
 }
 
 main > section.secao1{
@@ -67,9 +118,10 @@ main > section.secao2{
 }
 
 footer{
-    background-color: #17A2B8;
+    background-color: var(--cor_extremos);
     text-align: center;
     padding: 10px;
+    margin-top: 100px;
     color: white;
     font-weight: 500;
 }
