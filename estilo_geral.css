@@ -118,6 +118,8 @@ main > section.secao2{
 
 .video > iframe{
     margin-top: 35px;
+    width: 50vw;
+    height: 60vh;
 }
 
 footer{
