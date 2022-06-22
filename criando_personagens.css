@@ -6,8 +6,13 @@
     font-size: 1em;
 }
 
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
 html, body{
-    min-height: 100vh;
+    min-height: 120vh;
     font-family: var(--fonte_normal);
 }
 
@@ -27,13 +32,7 @@ header{
 }
 
 main{
-    height: 70vh;
-    padding: 45px 15px;
-    border-radius: 15px;
-    margin-top: 35px;
-    border: 1px solid var(--cor_borda);
-    color: white;
-    font-weight: 500;
+    padding: 50px;
 }
 
 ul > li{
@@ -63,9 +62,24 @@ input[type=number]{
     margin-top: 10px;
 }
 
+.c{
+    height: 70vh;
+    padding: 45px 15px;
+    border-radius: 15px;
+    margin-top: 35px;
+    border: 1px solid var(--cor_borda);
+    color: white;
+    font-weight: 500;
+}
+
+#controla-espaco{
+    height: 250px;
+}
+
 .alinhando_botao{
     float: right;
     margin-top: 15px;
+    margin-bottom: 50px;
 }
 
 footer{

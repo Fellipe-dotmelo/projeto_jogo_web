@@ -1,0 +1,10 @@
+{
+  "nome": "Giorgian",
+  "idade": 28,
+  "estaTrabalhando": true,
+  "detalhesProfissao":{
+    "profissao": "jogador e rei delax",
+    "empresa": "Flamengo e Varzea Clube"
+  },
+  "hobbies": ["Pegar famosas", "Me fazer feliz", "Carregar o Uruguai"]
+}
